@@ -1,0 +1,16 @@
+# First Day of Bootcamp Outline
+- Welcome to We Can Code IT
+- Curriculum & Syllabus Overview
+  - Tests
+  - Communication with Peers and Instructors
+- Career Day & Graduation Requirements
+- Expectations
+- Check-In
+- House Assignments
+  - Easley House/Annie Easley (Magenta): Easley House is known for its flexibility and agility.
+  - Hopper House/Grace Hopper (Green): Hopper House is known for its power and unflinching will to accomplish tasks.
+  - Lawson/Jerry Lawson (Orange): Lawson House is known for its strength and perseverance.
+  - Turing House/Alan Turing (Blue): Turing House is known for its ability to transform its weaknesses into strengths.
+- MazeSweeper
+- Intro to Coding
+- Check-Out
