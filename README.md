@@ -54,18 +54,17 @@
 #### * Denotes potential topics
 
 # Important Dates
-- First Day of Class (June 26)
-- No Class (July 3-4 Independence Day)
-- No Class (September 4 Labor Day)
-- Last Day of Class (September 14)
-- Career Day & Graduation (September 15)
+- First Day of Class (September 25)
+- No Class (November 22-24 Thanksgiving)
+- Last Day of Class (December 14)
+- Career Day & Graduation (December 15)
 
 
 # Grading Policy
 
 Class is from 9:30am-3:30pm Monday-Friday, with the exception of holidays on which we will not be having class.
 
-You are required to attend a minimum of 90% of class time to be eligible for graduation. Please inform your instructor and TA if extenuating circumstances arise.
+You are required to attend a minimum of 90% of class time to be eligible for graduation. Please inform your instructors if extenuating circumstances arise.
 
 In order to pass the course, you must receive a grade of 70% or higher averaged over all the assignments.
 
