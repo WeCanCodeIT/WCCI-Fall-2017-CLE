@@ -40,7 +40,7 @@
   - Find the length of your first name and print it.
   - Find the length of your last name and print it.
   - If the first name is longer than the last name, print "First is longer."
-  - If the first name and last name are the same length, print "Samsis!"
+  - If the first name and last name are the same length, print "Samesies!"
   - Otherwise, print "last must be longer!"
   - EXTENSION: Get user input for the first and last name instead of hardcoding, such as `string fName = "Mary";`
   
