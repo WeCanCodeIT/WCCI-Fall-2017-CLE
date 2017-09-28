@@ -24,7 +24,7 @@
   - Trim()
   - ToString()
   - ToUpper()
-  - To Lower()
+  - ToLower()
   - IndexOf()
   - LastIndexOf()
   - Substring()
