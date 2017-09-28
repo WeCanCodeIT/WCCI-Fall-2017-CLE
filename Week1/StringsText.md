@@ -56,7 +56,7 @@
   - If they're not the same, print "The names are different."
 
 - Concatenation 
-  *First try the following using `+` and then try it using `.Equals()`
+  *First try the following using `+` and then try it using `.Concat()`
 
   - Ask the user for his/her first name.
   - Ask the user for his/her last name.
