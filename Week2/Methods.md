@@ -26,9 +26,9 @@
 
 - The second part, `int`, is the return type of the method. We will explore the `return` keyword in the next section. After the method is done performing it's work what information is to going to give back to us? This can be any data type we've seen so far, `string`, `int`, `double`. Whatever makes sense for the problem we're trying to solve. The return type can also be complex types as well, so arrays, lists, or even objects.
 
-- Follow that is the name of the method. Methods are actions so they can be thought of as verbs in English. In this example it's `Add`. The names of methods are in Pascal Case. The name of the method should always correspond with the action the method is performing. So a method named `Add` shouldn't subtract instead.
+- Following that is the name of the method. Methods are actions so they can be thought of as verbs in English. In this example it's `Add`. The names of methods are in Pascal Case. The name of the method should always correspond with the action the method is performing. So a method named `Add` shouldn't subtract instead.
 
-- The last part are the parenthesis and everything inside. This is where we're able to see what parameters the method needs. Parameters are the information we give to methods in order for them to do their work. Parameters function like _temporary_ variables. They only within the scope of the method, outside the method they don't exist. So if we have any information we want to persist after the method completes we need to
+- The last part are the parentheses and everything inside. This is where we're able to see what parameters the method needs. Parameters are the information we give to methods in order for them to do their work. Parameters function like _temporary_ variables. They only within the scope of the method, outside the method they don't exist. So if we have any information we want to persist after the method completes we need to
 
 - This can be any data type we've seen so far, `string`, `int`, `double`. Whatever makes sense for the problem we're trying to solve. The return type can also be complex types as well, so arrays, lists, or even objects.
 
