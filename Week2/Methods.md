@@ -98,7 +98,7 @@ public static void RobotWarning(string name)
 - Create a method called WageCalculator.
     - It should take two `double` parameters. One should represent the hours worked and the other represent the hourly wage. The return type should be of type of `double`.
     - The method should calculate the monthly wage.
-    - Once it calculates the monthly wage it should print 'Your monthly wage is X' where 'X represents the value that was calculated.
+    - Once it calculates the monthly wage it should print `Your monthly wage is X` to the console where 'X' represents the value that was calculated.
 
 ----
 
