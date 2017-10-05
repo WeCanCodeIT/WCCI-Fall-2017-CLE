@@ -168,6 +168,7 @@ We have a public method `Eat`. The return type is void, which means after it com
    - Cuddle()
 
   ## Reference Materials
-    - [Intro to Object Oriented Programming](https://docs.google.com/presentation/d/1GWfWK3dwL8jkJgzq9QsUA98hciElgRdCNJ68B_csOLw/edit?usp=sharing)
+  
+- [Intro to Object Oriented Programming](https://docs.google.com/presentation/d/1GWfWK3dwL8jkJgzq9QsUA98hciElgRdCNJ68B_csOLw/edit?usp=sharing)
 
 
