@@ -87,18 +87,18 @@ public static void RobotWarning(string name)
  - Create a method called FavoriteFood.
     - It should take two `string` parameters. One representing a name, and the other representing a favorite food.
     - The return type should be `void`.
-    - The method should concatenate 
+    - The method should concatenate and print the user's name and favorite food to the console.
 
 - Create a method called RetirementCalculator.
     - It should take an `int` as a parameter representing the users age.
     - The method should calculate how many more years until the user retires using 65 as the age of retirement.
         - The return type should be `void`.
-    - Once it calculates the users retirement age it should print `The user will retire in X years`, where X represents the value that was calculated.
+    - Once it calculates the users retirement age it should print to the console: `The user will retire in X years`, where X represents the value that was calculated.
 
 - Create a method called WageCalculator.
     - It should take two `double` parameters. One should represent the hours worked and the other represent the hourly wage. The return type should be of type of `double`.
     - The method should calculate the monthly wage.
-    - Once it calculates the monthly wage it should 
+    - Once it calculates the monthly wage it should print 'Your monthly wage is X' where 'X represents the value that was calculated.
 
 ----
 
