@@ -23,7 +23,7 @@
 - A data structure is a way of organizing data that considers not only the items stored, but also their relationship to each other.
 - A list is similar to an array. There are a few important similarities and differences to point out:
   - Lists are mutable, which means they can dynamically change in size, whereas arrays have a fixed size
-  - Both Lists and Arrays have a property for evaluating the length
+  - Both Lists and Arrays have a property for evaluating the length. In a list it's called `Count`.
 
 ## Do It
 - Let's create a list of favorite foods.
