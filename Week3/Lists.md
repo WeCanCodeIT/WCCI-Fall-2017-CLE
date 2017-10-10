@@ -46,7 +46,7 @@
   luckyNumbers.Add(7);
   //We now have a list called luckyNumbers that has the integer elements 2, 3, 5, 7
   ```
-- (Do it with the students) of Let's get back to creating our list of favorite foods. Following the first example of when you know what the elements are, create a list of your top 5 favorite foods.
+- Let's get back to creating our list of favorite foods. Following the first example of when you know what the elements are, create a list of your top 5 favorite foods.
   ```CSharp
   List<string>faveFoods = new List<string>(){"steak","chicken","fish","ice cream","nachos"};
   
