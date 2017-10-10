@@ -59,10 +59,17 @@
 - This time, let's create a list of our least favorite foods based on the second example where the elements are unknown. Use the Add method to add your 5 least favorite foods to the list.
 ```CSharp
   List<string>leastFaveFoods = new List<string>();
-  leastFaveFoods[0].Add("Brussel Sprouts");
-  leastFaveFoods[1].Add("Beets");
-  leastFaveFoods[2].Add("Shrimp");
+  leastFaveFoods.Add("Brussel Sprouts");
+  leastFaveFoods.Add("Beets");
+  leastFaveFoods.Add("Shrimp");
 ```
+
+- Thinking back to our previous example. If we want to change the value stored an an element we can use the following format. In this example we'll take the first element in our `leastFaveFoods` list and change it to pizza.
+```CSharp
+  leastFaveFoods[0] = "Pizza";
+```
+
+
 - There are built-in methods and properties that can be used with lists.
   - Let's look at the `Count` property and the `Remove` and `Insert` methods.
   - Create a list called `faveFilms` and populate it with the movies Pretty in Pink, The Breakfast Club, and Sixteen Candles.
@@ -100,6 +107,9 @@
       Console.WriteLine(film);
     }
   ```
+   
+   
+   
    
 ## Do It
 - Create a List<string>
