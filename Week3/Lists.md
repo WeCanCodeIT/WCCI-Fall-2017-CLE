@@ -123,9 +123,9 @@
   - If the value is false print:  "No rain today, enjoy the sun!"
 
 - Create a list with the following numbers: 1, 23, 9, 77, 922, 6, 32, 63,14, 5
-  - Use the .Contains() method with the following values 23, 77, 15
+  - Use the .Contains() method and print the results of the method to console with the following values 23, 77, 15
   - Remove the 4 elements 27, 77, 32 and 6
-  - Use the .Contains() method with the following values 23, 77, 15
+  - Use the .Contains() method and print the results of the method to the console with the following values 23, 77, 15
   
 - Come up with an example for how to use each of the methods/properties listed in the Common Properties & Methods section.
 
