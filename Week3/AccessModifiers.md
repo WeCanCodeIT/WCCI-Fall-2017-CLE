@@ -23,10 +23,10 @@ Lets take a look at some of these in practice. Here we have a `boat` class.
 ```csharp
 class Boat
 {
-    public numberOfPassengers;
+    public int numberOfPassengers;
 
     private string name;
-    private engineSize;
+    private double engineSize;
 
     public string Name
     {
