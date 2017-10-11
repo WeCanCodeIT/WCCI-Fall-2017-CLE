@@ -13,12 +13,20 @@
 - Abstract class 
 - Method OverLoading
 
-## Goals
-- Students should be able to explain inheritance & polymorphism in their own words
-- Students should understand the relationship between inheritance & polymorphism
-- Students should understand when to use inheritance
-- Students should understand when to use polymorphism
-- Students should understand the syntax and keywords related to inheritance and polymorphism
+## Description
+- Inheritance simply means a parent-child relationship. 
+- Think about how a child may inherit properties like eye color from a parent
+- By using inheritance in C#, we can create a new class by using an existing class
+  - This allows us to be able to reuse properties and methods of the original class in our new class
+  - For example, let's say we have a Transportation parent or base class. We could create new classes/child or derived classes from our Transportation class, such as a Car class, a Motorcycle class, and a Boat class.
+  - What properties and methods might our derived classes inherit from our base Transportation class?
+    - Capacity (property)
+    - Turn (method)
+    - Go (method)
+    - Reverse (method)
+    - Stop (method)
+- This is where polymorphism comes into play. Polymorphism comes from the roots Poly meaning many and Morph meaning form. In programming, polymorphism refers to the same method being implemented in different ways. So, for example:
+  - The Turn method could be called on a Boat object, a Motorcycle Object, or a Car object. However, the method may function differently depending on which object is calling the method. A car turns differently, than a boat, and a so on.
 
 ## Do It
 - [In Class Slides](https://docs.google.com/presentation/d/17WM4gT6L5uKMIbb3vCOULNriJxLvPVUruUKOxVZU9Ew/edit?usp=sharing)
