@@ -11,6 +11,7 @@
 
 ## In Class Exercise
  - [Life Is Strange](https://docs.google.com/presentation/d/1F1aHwgVWd4eZ3j3HuSqlntrzcVEFIKuLS97jFum6HuY/edit#slide=id.g1234cc2daa_0_0)
+ - [Life Is Strange Resources](https://github.com/WeCanCodeIT/Bootstrap-LifeIsStrange)
  
 ## Student Resources & Practice Problems
   - [Bootstrap Homepage](http://www.getbootstrap.com)
