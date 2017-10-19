@@ -15,7 +15,7 @@ Given some mockups from a designer create a close approximation of a website. Ut
   - [ ] Navbar
   - [ ] Header or Jumbotron
   - [ ] Locations
-  - [ ] Ammenities
+  - [ ] Amenities
   - [ ] Carousel (Reviews)
   - [ ] Form (Contact)
   - [ ] Footer
