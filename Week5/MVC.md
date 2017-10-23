@@ -30,3 +30,42 @@
 - The controller is responsible for controlling the flow of the program.
   - The controller controls the interactions between the models and views. It's the "intermediary" in between the model and view.
 - The *Controller* is the glue that holds the two together. When you want to create or delete an email in your email client, you're sending a message to the controller. It is responsible for updating the model (creating or deleting the email), then refreshing the view (showing you what you see on the screen).
+
+
+## Show It
+- Let's walk through [creating an ASP.NET MVC Web Application](https://docs.google.com/presentation/d/1yqn9NZOcxetfKugCa_jkCg2vbTnDQMY14IVDMBR9mqA/edit?usp=sharing)
+- Take a moment to let students explore what's in each of the folders.
+- App_Start Folder
+  - Here you will find config files. Let's look specifically at the `RouteConfig.cs` file. Double click on it to open it.
+  - You will define the routes and those routes will map URLs to a specific controller action.
+  - An action is just a method on the controller. 
+  - It can also pick parameters out of that URL and pass them as parameters into the method.
+  - This route that is defined in the application is the default route. 
+  - When you see a URL arrive in the form of (something)/(something)/(something), then the first piece is the controller name, second piece is the action name, and the third piece is an ID parameter.
+  - Let's see what happens when you change `defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }` from Index to About, like so: `defaults: new { controller = "Home", action = "About", id = UrlParameter.Optional }`
+    - The new default route is the About page instead of the Index page. Have students save and run the app to see for themselves.
+    - Now have students on their own change the homepage/default route back to the Index page.
+- Content Folder
+  - The content folder holds the Bootstrap files as well as the Site.css file.
+- Controllers Folder
+  - The controllers folder holds all of the MVC controllers. Let's look at the `HomeController.cs`.
+  - Notice it has methods that return the view for each of the pages of our application.
+- Models Folder
+  - The models folder has all of the classes for the data or business logic of the application.
+  - Ask the students where they think the Account and Identity classes came from?
+- Views Folder
+  - Inside the Views folder, you will find a subfolder for each of the Controllers (Home, Account, Manage) plus a Shared folder.
+  - Let's first look at `Index.cshtml` and then run the page. See what it is rendered in the browser. There is body content, but also a navbar.
+  - Have the students delete everything in the `Index.cshtml` except for the first few lines that include:
+  ```
+  @{
+    ViewBag.Title = "Home Page";
+  }
+  ```
+  - Now have the students save and run the app. Notice what's left. Have students explore and try to figure out where the navbar is coming from.
+  - Now, have students open the Shared Folder inside Views. Double-click on `_Layout.cshtml` 
+  - The Layout page is like a template. It holds all of the other information, such as the Head section, Navbar, and Footer that we want to be applied to all views. 
+  - Look for `@RenderBody()` on the Layout page.
+  - `RenderBody()` is where the content of each of the Views, such as Index or About is placed with respect to the Layout page.   
+- Scripts Folder
+  - This folder holds all of the JavaScript and jQuery files.
