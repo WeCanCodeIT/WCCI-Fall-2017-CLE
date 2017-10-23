@@ -69,3 +69,25 @@
   - `RenderBody()` is where the content of each of the Views, such as Index or About is placed with respect to the Layout page.   
 - Scripts Folder
   - This folder holds all of the JavaScript and jQuery files.
+  
+  ## Show It
+### Razor
+- Razor isn't an entirely new language, it simply means "we're executing this C# in the view to create some additional HTML". If we think about a social media site, this is how each user has a separate feed based on the users or topics they follow.
+
+- A section of razor code is started with an `@` symbol. You can think of this as a _switch_ that causes the rest of the line. For example: 
+```csharp
+@Html.DisplayFor(modelItem => item.Details)
+```
+
+- If an `@` symbol is placed in front of curly brace, the section between the opening and closing closing curly brace will all be razor. This allows us to have multiple lines of razor. For example: 
+```csharp
+@{
+    ViewBag.Title = "Index";
+}
+```
+
+- We can also use razor to call methods. Most commonly you'll see razor used to called HTML helper methods, we'll cover these in more detail later as well. These are methods that can make web programming a lot more convenient. You can place an `@` in front of a method call and everything up util the end of the method will be razor. This allows us to insert razor in our HTML. For example, the following Razor method will produce HTML that will populate the href attribute of a link: 
+```csharp
+   <a href="@Url.Action("ToggleDone", new {id = item.ItemID})">
+``` 
+
