@@ -91,3 +91,7 @@
    <a href="@Url.Action("ToggleDone", new {id = item.ItemID})">
 ``` 
 
+### MVC In-Class Projects
+
+[Suggestion Box](https://docs.google.com/presentation/d/1FX787R7R9UrSFlbf6RnrRObsaqW_5yXV1TiFsycxEWY/edit?usp=sharing)
+
