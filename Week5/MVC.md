@@ -96,3 +96,5 @@
 [Suggestion Box](https://docs.google.com/presentation/d/1FX787R7R9UrSFlbf6RnrRObsaqW_5yXV1TiFsycxEWY/edit?usp=sharing)
 
 [Migrations Walkthrough](https://docs.google.com/presentation/d/14Mf60EoUVF5ple2oUwMZKpspd2Bk8QFbJXazMCHWQcg/edit?usp=sharing)
+
+[Bookshelf](https://docs.google.com/presentation/d/1C9v9Upx7NWePFbh5kO06GSQnuxdyeJwFVAWsTKHzgdw/edit?usp=sharing)
