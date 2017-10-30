@@ -9,8 +9,10 @@
  - To understand when you would use database-first MVC (versus Code First)
 
 ### In Class
+ <!--
  - [Database-First MVC Tutorial](https://youtu.be/BeZdeWmW-4Q)
  - [FortuneTellerMVC](FortuneTellerMVC/)
+ -->
  
 ### Reflect on it
 - Resources
