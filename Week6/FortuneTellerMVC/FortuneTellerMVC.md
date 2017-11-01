@@ -47,7 +47,7 @@ After confirming that your table is showing up in the Entity Framework designer,
 
 Next, open up the `Index.cshtml` file in the `Views/Home` folder. Add a link to your new controller in this file and test out your controller!
 
-Also, you should export your database schema. This is how we can export our database and include them in our git repository. This can be done from SQL Server Management Studio by right-clicking on the database, choosing `Tasks` > `Generate scripts`. *Note:* If you want to also export your _data_ along with the schema, on the "Set scripting options" dialog select "Advanced" then change "Types of data to script" to "Schema and data." 
+Also, you should export your database schema. This is how we can export our database and include them in our git repository. This can be done from SQL Server Management Studio by right-clicking on the database, choosing `Tasks` > `Generate scripts`. **Note:** If you want to also export your _data_ along with the schema, on the "Set scripting options" dialog select "Advanced" then change "Types of data to script" to "Schema and data." 
 
 ![Generate SQL scripts](generatesql.gif)
 
