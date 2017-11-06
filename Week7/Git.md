@@ -69,3 +69,6 @@
 ### To Switch Branches
 - `git checkout` is the code we use to switch from one branch to another. Example: `git checkout master` from `testBranch`.
 - When you switch a branch, Visual Studio will try to revert back your code wherever the code was when the branch was intitiated.
+
+### Command to use sparingly
+- `git push origin --all` will push all of your branches to Github. Use sparingly because you don't want to be pushing non-functional branches and you don't want all of the members of your team to have to delete the bad branches.
