@@ -35,4 +35,10 @@
 - Branches can be made off of branches OR off of an existing branch.
 
 ### Interesting Fact
-- Some teams change the name of their `master` branch to something like `stable`. However, `master` is the convention, so changing it from the standard might be unadvised.
+- Some teams change the name of their `master` branch to something like `stable`. However, `master` is the convention, so changing it from the standard might not be the best idea.
+
+### Best Practice
+- A `.gitignore` file goes a long way towards preventing merge conflicts!! *ALWAYS* include a `.gitignore`!
+
+### Remember
+- Include your `.gitignore` file in your project before initializing your git repository.
