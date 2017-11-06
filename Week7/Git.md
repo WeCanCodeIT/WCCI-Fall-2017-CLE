@@ -27,3 +27,9 @@
 - What do you do when two people on a team are working with the same section of code? How do the changes line up?
   - Git is really smart when it comes to merging sets of code. Can track when changes were made. Git does its best to merge things together.
   - Eventually, git will run into some problems. It holds the separate parts of the code in separate places, and asks the developer to choose which changes she or he wants to include and which ones to not include. This is called resolving a *merge conflict*.
+  
+### Best Practice
+- Nobody should be doing all of their work in `master`. `master` should be reserved for working, clean, tested code while all of the members of the team are doing their work in their separate branches.
+
+### Where Can Branches Be Created?
+- Branches can be made off of branches OR off of an existing branch.
