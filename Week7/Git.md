@@ -90,3 +90,25 @@
 - In Git Bash, type `git clone url` where URL is where you have pasted what you copied in the last step.
 - Make sure you have changed directories in Git Bash to where you want to clone the project. (Example: Documents/Visual\Studio\2015/Projects/)
 
+### Git Cloning Exercise
+   For this exercise you will need at least two people. Person A and Person B. Each person should not be making changes in master directly, but rather making changes in a branch and merging them into master.
+
+1. Have Person A create a new project, create a git repository, and add a .gitignore file. Next they should perform an initial commit and push the code to a new github repository.
+
+2. Person A should go into the git repository's "Settings" and add Person B as a collaborator under "Collaborators & teams". If there are more than two people also add them at this point.
+
+3. Person B(Person C, etc) should accept the invite via email (or via the sharable link from Person A)
+
+4. Person B should copy the link under the green "Clone and download" button on the repository's main page. Person B should now run `git clone [url copied from the repository]`.
+    
+5. Person B now needs to create a branch by running `git checkout -b [newBranchName]`. Person B should make a few small changes, and commit those changes locally.
+
+    5.a (Optional) If Person B wants to add their changes to the github they can run `git push origin [newBranchName]`
+
+6. Once Person B is done with their changes they need to merge them back into `master`. First they should checkout master with `git checkout master`. Then to merge their changes into master they should run `git merge -m "[merge message]" [newBranchName]`.
+
+7. Now with their changes merged in they need to update origin. Before running a push you should run a `git pull` to make sure you have the most recent code. Then you can update origin by running `git push origin master`.
+
+8. Person A now needs the most recent changes in master. First they need to have the master branch checked out by running `git checkout master`. To get the most recent changes they can run  `git pull`. If there are more than 2 people working on the project, everyone can run this step now to ensure everyone on the team is up-to-date.
+
+9. Person A can now repeat steps 5-6. If there are more than 2 people have Person C repeat these steps as well.
