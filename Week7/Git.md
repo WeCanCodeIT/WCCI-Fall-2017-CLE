@@ -1,4 +1,4 @@
-# Git
+# Git Branching and Merging
 ### Git Commits
 - Each time there's a code change, we make a commit.
 - We can think of a straight line with many dots, each dot representing a commit.
@@ -33,3 +33,6 @@
 
 ### Where Can Branches Be Created?
 - Branches can be made off of branches OR off of an existing branch.
+
+### Interesting Fact
+- Some teams change the name of their `master` branch to something like `stable`. However, `master` is the convention, so changing it from the standard might be unadvised.
