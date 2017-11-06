@@ -50,6 +50,7 @@
 - Easiest command is `git checkout -b branchName` where "branchName" is replaced by whatever you are naming your branch. (You decide on the name) 
   - This command creates the branch and then switches you over to the new branch you've created.
   - Whenever you create a branch, it's taking the most recent code and making a copy for that branch.
+  - The branch starts from wherever you currently are when you create your branch.
   
 ### Branch Naming
 - If it's used for testing, call it `testBranch`.
@@ -57,3 +58,14 @@
 - Give some intention to your branch names.
 - NO SPACES in your branch name. 
   - When you have spaces in your branch name, some programs will not function correctly with the branch.
+
+### Knowing what branch you're in
+- Git Bash will include the name of your branch in blue in parentheses.
+
+### Pushing your branch to Github
+- We've only ever previously done `git push origin master`
+- With branches, we'll do `git push origin branchName` where "branchName" is replaced by whatever your branch's name is.
+
+### To Switch Branches
+- `git checkout` is the code we use to switch from one branch to another. Example: `git checkout master` from `testBranch`.
+- When you switch a branch, Visual Studio will try to revert back your code wherever the code was when the branch was intitiated.
