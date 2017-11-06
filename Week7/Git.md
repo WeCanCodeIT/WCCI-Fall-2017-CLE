@@ -99,16 +99,30 @@
 
 3. Person B(Person C, etc) should accept the invite via email (or via the sharable link from Person A)
 
-4. Person B should copy the link under the green "Clone and download" button on the repository's main page. Person B should now run `git clone [url copied from the repository]`.
+4. Person B should copy the link under the green "Clone and download" button on the repository's main page. Person B should now run `git clone [url copied from the repository]`. 
+
+    Be sure to run the _git clone_ command wherever you would like the folder to be created on your computer. For example, if you run the git clone command in the ` ~/Documents/visual studio 2015/Projects` directory, the project folder would be created at `~/Documents/visual studio 2015/Projects/[ProjectName]` 
+
+    Ensure Person B navigates into the project directory by running the `cd` command. For example if you ran your _git clone_ command in the `~/Documents/visual studio 2015/Projects` and your project was called `GitBranchTest`. You would then need to run `cd GitBranchTest` to navigate to the project directory. You can verify you are in the project directory if you see the branch name at the end of the directory name in the console like the following: ` ~/Documents/visual studio 2015/Projects/GitBranchTest (master)`
+
     
 5. Person B now needs to create a branch by running `git checkout -b [newBranchName]`. Person B should make a few small changes, and commit those changes locally.
 
     5.a (Optional) If Person B wants to add their changes to the github they can run `git push origin [newBranchName]`
 
-6. Once Person B is done with their changes they need to merge them back into `master`. First they should checkout master with `git checkout master`. Then to merge their changes into master they should run `git merge -m "[merge message]" [newBranchName]`.
+6. Once Person B is done with their changes they need to merge them back into `master`. First they should checkout master with `git checkout master`. Then to merge their changes into master they should run `git merge -m "[merge message]" [newBranchName]`. 
+
+    Remember when we perform a merge, we are _merging_ the changes into the branch we currently have checked out. You can kinda think about us _bringing_ those changes into our currently checked out branch.
 
 7. Now with their changes merged in they need to update origin. Before running a push you should run a `git pull` to make sure you have the most recent code. Then you can update origin by running `git push origin master`.
 
 8. Person A now needs the most recent changes in master. First they need to have the master branch checked out by running `git checkout master`. To get the most recent changes they can run  `git pull`. If there are more than 2 people working on the project, everyone can run this step now to ensure everyone on the team is up-to-date.
 
 9. Person A can now repeat steps 5-6. If there are more than 2 people have Person C repeat these steps afterwards as well.
+
+### Additional:
+You can repeat these steps, alternating who is creating a branch and adding changes until you feel comforatable with the process.
+
+You can also _resuse_ any of the already created branches. You should first checkout the branch, make your changes, commit and follow the same steps from there.
+
+You can use the "Network" graph under the "Insights" tab on the github repository to help verify the state and relationship of the different branches.
