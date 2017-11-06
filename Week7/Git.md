@@ -42,3 +42,18 @@
 
 ### Remember
 - Include your `.gitignore` file in your project before initializing your git repository.
+
+### To Find Your Graph
+- In your git repository on Github, click the Insights tab, then choose Network, and you can see the graph as its getting built.
+
+### Ways to Create a Branch
+- Easiest command is `git checkout -b branchName` where "branchName" is replaced by whatever you are naming your branch. (You decide on the name) 
+  - This command creates the branch and then switches you over to the new branch you've created.
+  - Whenever you create a branch, it's taking the most recent code and making a copy for that branch.
+  
+### Branch Naming
+- If it's used for testing, call it `testBranch`.
+- If it's used for building a feature, name the branch after that feature.
+- Give some intention to your branch names.
+- NO SPACES in your branch name. 
+  - When you have spaces in your branch name, some programs will not function correctly with the branch.
