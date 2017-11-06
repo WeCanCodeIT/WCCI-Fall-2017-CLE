@@ -111,4 +111,4 @@
 
 8. Person A now needs the most recent changes in master. First they need to have the master branch checked out by running `git checkout master`. To get the most recent changes they can run  `git pull`. If there are more than 2 people working on the project, everyone can run this step now to ensure everyone on the team is up-to-date.
 
-9. Person A can now repeat steps 5-6. If there are more than 2 people have Person C repeat these steps as well.
+9. Person A can now repeat steps 5-6. If there are more than 2 people have Person C repeat these steps afterwards as well.
