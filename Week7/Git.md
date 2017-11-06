@@ -83,8 +83,10 @@
 
 ### When It Goes Wrong
 - Multiple members of a team working on the same section of code.
+- Visual Studio includes mark-up and options in your program, the developer then chooses which section(s) of code is correct.
 
 ### Cloning
 - Copy the HTTPS url from the Green "Clone or Download" button.
 - In Git Bash, type `git clone url` where URL is where you have pasted what you copied in the last step.
 - Make sure you have changed directories in Git Bash to where you want to clone the project. (Example: Documents/Visual\Studio\2015/Projects/)
+
