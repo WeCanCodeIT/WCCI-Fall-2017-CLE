@@ -2,6 +2,7 @@
 ### Git Commits
 - Each time there's a code change, we make a commit.
 - We can think of a straight line with many dots, each dot representing a commit.
+- Each commit keeps track of the author.
 
 ### Benefits of Git
 - Allows us to collaborate/work with others.
@@ -72,3 +73,18 @@
 
 ### Command to use sparingly
 - `git push origin --all` will push all of your branches to Github. Use sparingly because you don't want to be pushing non-functional branches and you don't want all of the members of your team to have to delete the bad branches.
+
+## Merge
+- This is when we take changes and bring the changes back in.
+- *Important* You want to be in the branch where you want the changes and bring the changes in.
+  - Example - Be in `master` and merge `testBranch` in.
+  - Note - it is possible to do it backwards, so be mindful when doing merges.
+- To merge, you are in the branch where you want the changes to end up, and type `git merge -m "Merge Message" branchName` into `master` where "Merge Message" is replaced by the message you want to include.
+
+### When It Goes Wrong
+- Multiple members of a team working on the same section of code.
+
+### Cloning
+- Copy the HTTPS url from the Green "Clone or Download" button.
+- In Git Bash, type `git clone url` where URL is where you have pasted what you copied in the last step.
+- Make sure you have changed directories in Git Bash to where you want to clone the project. (Example: Documents/Visual\Studio\2015/Projects/)
