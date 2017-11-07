@@ -15,8 +15,8 @@
 ## Student Resources & Practice Problems
   - [Additional Optional JavaScript Tutorial](https://javascript.info/first-steps)
   - [The DOM in JavaScript](https://www.w3schools.com/js/js_htmldom.asp)
-  - [MSDN JavaScript Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
-  - [MSDN JavaScript Standard Built In Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+  - [MDN JavaScript Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+  - [MDN JavaScript Standard Built In Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
   - [W3Schools JavaScript DOM Events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Homework
