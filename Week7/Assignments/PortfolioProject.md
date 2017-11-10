@@ -30,7 +30,7 @@ Create a static portfolio webpage highlighting your work so far. Focus first on 
 - [ ] Look & Feel
   - [ ] Responsive layout
   - [ ] Doesn't look like a standard bootstrap template
-- [ ] This project must be deployed and live on [Github Pages](https://pages.github.com/)
+- [ ] This project must be deployed and live on [Github Pages](https://pages.github.com/)[Skip step 2]
 
 ## Details
 Your task is to create a portfolio website that you will ultimately share with employers. Focus on getting a solid HTML structure in place, making it as strong as possible, and then continuing to update it with projects over time. You *will* be sharing this with employers towards the end of boot camp.
