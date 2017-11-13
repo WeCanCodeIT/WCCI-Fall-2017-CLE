@@ -20,6 +20,6 @@ This week you will be working in teams to build an application called Chatter. T
 - It is expected that you will use the problem solving hierarchy.
 
 ## Follow Links to Complete Parts 1-4
-- [Part 1](https://docs.google.com/presentation/d/1AHy1Sl-UcLkFEtJCbBF3hJn6I-fedp28Z4Oh5rLKc-4/edit?usp=sharing)
+- [Part 1](https://docs.google.com/presentation/d/14fXCJPRMBsMrdjZTQ5nD3ubpPUpYi_rhEIBB6d_zX_s/edit?usp=sharing)
 
 Copyright (c) [2017], We Can Code IT, LLC. All rights reserved.
