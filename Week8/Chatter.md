@@ -21,8 +21,5 @@ This week you will be working in teams to build an application called Chatter. T
 
 ## Follow Links to Complete Parts 1-4
 - [Part 1](https://docs.google.com/presentation/d/1AHy1Sl-UcLkFEtJCbBF3hJn6I-fedp28Z4Oh5rLKc-4/edit?usp=sharing)
-- [Part 2](https://drive.google.com/open?id=1C23V8cpBjDSBWGPjw-zl1xvifUPlZ2NrUxDfyLWt-7U)
-- [Part 3](https://docs.google.com/presentation/d/1-nufGWmA1NMqPJ2wzq_cwy8hojkjJR4PiQrnBkRic-E/edit?usp=sharing)
-- [Part 4](https://docs.google.com/presentation/d/1Y6W2ykSua4Ra2WSz6aHamMwtBtk7mQ3egbFFOMTz3Ok/edit?usp=sharing)
 
 Copyright (c) [2017], We Can Code IT, LLC. All rights reserved.
