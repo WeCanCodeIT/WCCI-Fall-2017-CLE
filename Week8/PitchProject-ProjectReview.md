@@ -10,13 +10,12 @@
   - [ ] If you are able you can do some field research for your project by reaching out to people or ORGs. Most people are more than happy to provide input for an educational project.
 
 ## Details
-For this weekend's project it's divided up into two parts. 
 
-The first part will have you work on honing down your pitch for final projects. First begin on collecting as much information as you can. From there work on narrowing it down. Feel free to talk and work with your classmates on narrowing down your ideas if you feel like it may be too large. Also run your idea past a number of different people to get feedback.
+This weekend you will work on honing down your pitch for final projects. First begin on collecting as much information as you can. From there, work on narrowing it down. Feel free to talk and work with your classmates on narrowing down your ideas if you feel like it may be too large. Also run your idea past a number of different people to get feedback.
 
 Once you have your pitch ready put some time into practicing it.  It will just be for your classmates and We Can Code IT staff so don't put too much pressure on yourself.
 
 
 ## Hints
 Have fun!
-Do some research on different programming practices. Try searhcing for SOLID, Clean Code and other methodologies.
+Do some research on different programming practices. Try searching for SOLID, Clean Code and other methodologies.
