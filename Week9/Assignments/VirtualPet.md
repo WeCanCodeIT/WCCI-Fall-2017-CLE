@@ -1,6 +1,6 @@
 # Virtual Pet
 ## Due:
-## *This project is intended as extra practice over Thanksgiving break*
+## *This project is intended as extra practice over Thanksgiving break and is not graded*
 
 ## Overview
 Create a console application for an interactive game-like virtual pet program. The user must be able to select different tasks or activities from a menu.
