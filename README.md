@@ -114,6 +114,6 @@ Instructor Emails:
 - Jarryd@wecancodeit.org
 - Daniel@Wecancodeit.org
 - Anne@wecancodeit.org (Campus Director)
-- Cynthia@wecancodeit.org (Career Strategist)
+- Melissa@wecancodeit.org (Career Strategist)
 
 © 2017 We Can Code IT ALL RIGHTS RESERVED
